@@ -1,5 +1,3 @@
-# COMO CONFIGURAR
-
 ## 1. OBTER CLIENT_ID & CLIENT_SECRET
 
 Acesse https://dev.twitch.tv/console
