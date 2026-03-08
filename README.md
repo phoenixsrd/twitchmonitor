@@ -47,7 +47,7 @@ macOS: Crie um LaunchAgent em ~/Library/LaunchAgents/
 
 Linux: Adicione ao crontab: @reboot python3 /caminho/twitchmonitor.py
 
-## 5. 📱 DISPOSITIVOS MÓVEIS
+## 5. DISPOSITIVOS MÓVEIS
 
 Scripts Python não rodam nativamente em mobile.
 
