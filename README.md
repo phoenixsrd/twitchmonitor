@@ -1,6 +1,6 @@
 # Como configurar
 
-### 1. OBTER CLIENT_ID e CLIENT_SECRET:
+### 1. OBTER CLIENT_ID e CLIENT_SECRET
 
 Acesse https://dev.twitch.tv/console
 
@@ -12,33 +12,42 @@ Categoria: Application Integration
 
 Copie o Client ID e gere um Client Secret
 
-## 2. EDITAR O SCRIPT:
+## 2. EDITAR O SCRIPT
 
-CHANNEL_NAME  = "nome_exato_do_canal"
+CHANNEL_NAME = "nome_exato_do_canal"
 
-CLIENT_ID     = "seu_client_id_aqui"
+CLIENT_ID = "seu_client_id_aqui"
 
 CLIENT_SECRET = "seu_client_secret_aqui"
 
 CHECK_INTERVAL = 60  (segundos — mínimo recomendado: 30)
 
-## 3. EXECUTAR:
+## 3. EXECUTAR
 
-Windows: ```python twitchmonitor.py```
+Windows
+```bash
+python twitchmonitor.py
+```
 
-macOS: ```python3 twitchmonitor.py```
+macOS
+```bash
+python3 twitchmonitor.py
+```
 
-**Linux:** ```python3 twitchmonitor.py```
+Linux
+```bash
+python3 twitchmonitor.py
+```
 
-## 4. INICIAR COM O SISTEMA (opcional):
+## 4. INICIAR COM O SISTEMA (opcional)
 
-Windows: Adicione ao Agendador de Tarefas
+# Windows: Adicione ao Agendador de Tarefas
 
-macOS: Crie um LaunchAgent em ~/Library/LaunchAgents/
+### macOS: Crie um LaunchAgent em ~/Library/LaunchAgents/
 
 Linux: Adicione ao crontab: @reboot python3 /caminho/twitchmonitor.py
 
-## 5: 📱 DISPOSITIVOS MÓVEIS:
+## 5. 📱 DISPOSITIVOS MÓVEIS
 
 Scripts Python não rodam nativamente em mobile.
 
