@@ -41,9 +41,9 @@ python3 twitchmonitor.py
 
 ## 4. INICIAR COM O SISTEMA (opcional)
 
-# Windows: Adicione ao Agendador de Tarefas
+Windows: Adicione ao Agendador de Tarefas
 
-### macOS: Crie um LaunchAgent em ~/Library/LaunchAgents/
+macOS: Crie um LaunchAgent em ~/Library/LaunchAgents/
 
 Linux: Adicione ao crontab: @reboot python3 /caminho/twitchmonitor.py
 
