@@ -28,7 +28,7 @@ Windows: ```python twitchmonitor.py``|
 
 macOS: ```python3 twitchmonitor.py```
 
-**Linux:** ```text python3 twitchmonitor.py
+**Linux:** ```bash python3 twitchmonitor.py
 
 ## 4. INICIAR COM O SISTEMA (opcional):
 
