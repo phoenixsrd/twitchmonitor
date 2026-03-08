@@ -24,11 +24,11 @@ CHECK_INTERVAL = 60  (segundos — mínimo recomendado: 30)
 
 ## 3. EXECUTAR:
 
-Windows: ```python twitchmonitor.py``|
+Windows: ```python twitchmonitor.py```
 
 macOS: ```python3 twitchmonitor.py```
 
-**Linux:** ```bash python3 twitchmonitor.py
+**Linux:** ```python3 twitchmonitor.py```
 
 ## 4. INICIAR COM O SISTEMA (opcional):
 
